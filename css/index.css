@@ -68,6 +68,14 @@ body{
     font-weight: bolder;
     font-size: 23px;
 }
+.songs{
+    margin-top: 10px;
+}
+.audios, .videos{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .foot{
     position: relative;
     top: 450px;
@@ -123,11 +131,45 @@ body{
         font-weight: bold;
         text-align: center;
     }
+    .songs-audio{
+        display: flex;
+        padding: 1px;
+        overflow-x: scroll;
+        position: relative;
+        top: 40px;
+      
+    }
+    .songs-video{
+        display: flex;
+        padding: 1px;
+        overflow-x: scroll;
+        position: relative;
+        top: 70px;
+    }
+    .songs-audio audio{
+        width: 200px;
+        height: 50px;
+        padding: 5px;
+    }
+    .songs-video video{
+        width: 200px;
+        height: 100px;
+        padding: 5px;
+    }
+    .videos{
+        position: relative;
+        top: 70px;
+    
+    }
+    .audios{
+        position: relative;
+        top: 40px;
+    }
     .foot{
         position: relative;
-        top: 400px;
+        top: 230px;
         background: linear-gradient(rgb(150, 150, 150), rgb(30, 30, 30));
-        height: 150px;
+        height: 60px;
         margin: 0;
         padding: 0;
     }
@@ -135,13 +177,12 @@ body{
         display: flex;
         justify-content: space-between;
         position: relative;
-        top: 20px;
         margin: 10px;
         margin-left: 25px;
     }
     .home{
         position: relative;
-        top: 17px;
+        top: 15px;
         right: 30px;
         font-size: 13px;
         font-weight: lighter;
