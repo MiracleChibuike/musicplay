@@ -86,7 +86,7 @@ h2, h3{
 .signUp a:hover{
     cursor: pointer;
     text-decoration: underline;
-    font-weight: lighter;
+    font-weight: bolder;
 } 
 .login{
     display: flex;
