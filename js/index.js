@@ -7,9 +7,10 @@ function allow(){
         alert("Inputs Cannot be Empty");
         return false;
         
-    }else{
-        alert('You have Succesfully Created an account with us')
     }
+    // else{
+    //     alert('You have Succesfully Created an account with us')
+    // }
     // let userPassworddigit = document.getElementById("userpasscode").length;
     // if (userPassworddigit >=14) {
     //     alert("password cannot exceed 12 characters")
@@ -26,9 +27,10 @@ function sendRequest() {
         alert("Inputs Cannot be Empty");
         return false;
         
-    }else{
-        alert('You have Succesfully Created an account with us')
     }
+    // else{
+    //     alert('You have Succesfully Created an account with us')
+    // }
     
 }
 
