@@ -18,11 +18,11 @@
     <form action="index.html" method="get">
         <div class="email">
             <i class="fa fa-envelope-o" style="color: #dfd7d7; font-size: 20px; position: relative; left: 30px; top: 13px;"></i>
-            <input type="email" placeholder="Email" required class="emailInput" id="useremail" autocomplete="email" >
+            <input type="email" placeholder="Email" required class="emailInput" id="useremail" autocomplete="email" spellcheck="true" >
         </div>
         <div class="password">
-            <i class="fa fa-lock" style="color: #dfd7d7; font-size: 20px; position: relative; left: 30px; top: 25px;" ></i>
-            <input type="password" placeholder="Password" required class="passwordInput" id="userpasscode" autocomplete="new-password">
+            <i class="fa fa-lock" style="color: #dfd7d7; font-size: 20px; position: relative; left: 30px; top: 25px;" onclick="unhide()"></i>
+            <input type="password" placeholder="password" required class="passwordInput" id="userpasscode" autocomplete="new-password">
         </div>
         <div class="signs">
             <button class="sign"  onclick="allow()">Sign up</button>
