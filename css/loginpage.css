@@ -82,7 +82,6 @@ h2, h3{
 }
  .signUp a{
     color: aquamarine;
-    font-size: 13px;
 }
 .signUp a:hover{
     cursor: pointer;
@@ -127,7 +126,6 @@ footer .foot{
         color: aquamarine;
         margin-left: 45px;
         text-align: center;
-        font-size: 13px;
         margin-top: 3px;
         text-decoration: none;
         font-weight: bold;
