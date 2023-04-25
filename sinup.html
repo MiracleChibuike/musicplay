@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <i class="fa fa-youtube" style="color: #fff; font-size: 75px;margin-left: 15px;"></i>
+        <div class="headers">
+        <h3>Log in to Youtube Music</h3>
+        </div>
+        <form action="index.html" method="get">
+            <div class="email">
+                <i class="fa fa-envelope-o" style="color: #dfd7d7; font-size: 20px; position: relative; left: 30px; top: 13px;"></i>
+                <input type="email" placeholder="Email" required class="emailInput">
+            </div>
+            <div class="password">
+                <i class="fa fa-lock" style="color: #dfd7d7; font-size: 20px; position: relative; left: 30px; top: 25px;" ></i>
+                <input type="password" placeholder="Password" required class="passwordInput">
+            </div>
+            <div class="git">
+                <p class="gitlab">Forgot your password?</p> 
+            </div>
+            <div class="signs">
+                <button class="sign"  onclick="sendRequest()">Log in</button>
+            </div>
+            <div class="signp">
+                <p class="google">Have Google account?</p>
+            </div>
+            <div class="signaccounts">
+                <a href="https://accounts.google.com/signin">Sign up with your Google accont instead</a>
+            </div>
+            <div class="login">
+                <p class="loginpage">Don't have an account yet? <a href="loginpage.html" target="_blank">Sign up</a></p>
+            </div>
+        </form>
+        <footer>
+            <p class="foot">By signing up with Youtube Music, you agree to our <a href="#" target="_blank">terms and conditions</a></p>
+        </footer>
+       </div>
+    
+</body>
+<script src="js/index.js"></script>
+</html>

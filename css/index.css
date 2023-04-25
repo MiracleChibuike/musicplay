@@ -6,12 +6,13 @@
 }
 body{
     background-color: rgb(49,49,49);
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
 }
 .maincontainer{
     background-color: rgb(49,49,49);
-    height: 780px; 
-    overflow-y: hidden;
+    /* height: 780px;  */
+    /* overflow-y: hidden; */
     
 }
 .yt{
@@ -19,6 +20,8 @@ body{
     justify-content: space-between;
     color: #fff;
     background: linear-gradient(rgb(150, 150, 150), rgb(50, 50, 50));
+    /* position: fixed;
+    width: 100%; */
 }
 .logo{
     width: 35px;
@@ -78,9 +81,10 @@ body{
 
 .foot{
     position: relative;
-    top: 450px;
+    top: 100px;
     background: linear-gradient(rgb(150, 150, 150), rgb(50, 50, 50));
     bottom: 0;
+    z-index: 1000;
     
     /* height: 120px; */
 }
@@ -108,8 +112,8 @@ body{
     .maincontainer{
         margin: 5px;
         padding: 5px;
-        overflow-y: hidden;
-        height: 660px; 
+        /* overflow-y: hidden; */
+        /* height: 660px;  */
     }
     .yt{
         padding-top: 5px;

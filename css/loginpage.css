@@ -1,0 +1,146 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 45px;
+    background-color: rgb(110, 110, 110);
+}
+.maincontainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2, h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.password{
+    display: flex;
+    justify-content: center;
+}
+.emailInput{
+    width: 270px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #f5f5f5;
+    background-color: transparent;
+    padding-left: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.passwordInput{
+    content-visibility:visible;
+    width: 270px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #f5f5f5;
+    background-color: transparent;
+    padding-left: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.signs{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sign{
+    height: 30px;
+    background-color: aquamarine;
+    width: 275px;
+    border-radius: 5px;
+    border: none; 
+    font-weight: bold;
+
+}
+.sign:hover{
+    cursor: pointer;
+    transition: .7s;
+    background-color: #f5f5f5;
+}
+.git{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: #fff;
+}
+.signUp{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+ .signUp a{
+    color: aquamarine;
+    font-size: 13px;
+}
+.signUp a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: lighter;
+} 
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    color: #fff;
+}
+.login a{
+    color: aquamarine;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #beb8b8;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer .foot{
+    display: none;
+}
+@media screen  and (max-width:600px){
+    .headers{
+        line-height: 1px;
+    }
+    .sign{
+    height: 30px;
+    background-color: aquamarine;
+    width: 275px;
+    border-radius: 5px;
+    border: none; 
+    font-weight: bold;
+    }
+    
+    .signUp a{
+        color: aquamarine;
+        margin-left: 45px;
+        text-align: center;
+        font-size: 13px;
+        margin-top: 3px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    footer .foot{
+        display: block;
+        position: relative;
+        top: 110px;
+        text-align: center;
+    }
+    .foot a{
+        color: #d9d2d2;
+        font-weight: bold;
+    }
+    
+}
