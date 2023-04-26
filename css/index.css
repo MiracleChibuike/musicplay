@@ -24,15 +24,16 @@ body{
     width: 100%; */
 }
 .logo{
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
     border-radius: 50%;
     background-color: #f90001;
 }
 
 .music{
     position: relative;
-    right: 55px;
+    right: 100px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -69,19 +70,58 @@ body{
 .quicknotes >.quicks{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    font-size: 23px;
+    font-size: 18px;
 }
-.songs{
-    margin-top: 10px;
-}
-.audios, .videos{
+.audio, .video{
     color: #fff;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.audiosongs{
+    /* background-color: blue; */
+    display: flex;
+    overflow-x: scroll;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.Ed{
+     color: #fff;
+    text-align: center;
+}
+.chris{
+    /* color: #fff; */
+     color: #fff;
+    text-align: center;
+}
+.umuobiligbo{
+     color: #fff;
+    text-align: center;
+}
+.davido{
+     color: #fff;
+    text-align: center;
+}
+.burna{
+     color: #fff;
+    text-align: center;
+}
+.videosongs{
+    display: flex;
+    overflow-x: scroll;
+    margin: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+video{
+    width: 300px;
+}
+.sopuruchi{
+     color: #fff;
+    text-align: center;
+}
 .foot{
     position: relative;
-    top: 100px;
+    top: 350px;
     background: linear-gradient(rgb(150, 150, 150), rgb(50, 50, 50));
     bottom: 0;
     z-index: 1000;
@@ -121,6 +161,19 @@ body{
         padding-left: 2px;
         position: sticky;
     }
+    .music{
+        position: relative;
+        right: 45px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .logo{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: #f90001;
+    }
     .buttons{
         position: sticky;
         display: flex;
@@ -135,43 +188,31 @@ body{
         font-weight: bold;
         text-align: center;
     }
-    .songs-audio{
-        display: flex;
-        padding: 1px;
+    .audiosongs{
+        /* background-color: #f90001; */
         overflow-x: scroll;
-        position: relative;
-        top: 40px;
-      
-    }
-    .songs-video{
+        scroll-behavior: smooth;
+        /* overflow-x: scroll; */
         display: flex;
-        padding: 1px;
+    }
+    .videosongs{
         overflow-x: scroll;
-        position: relative;
-        top: 70px;
+        scroll-behavior: smooth;
+        display: flex;
     }
-    .songs-audio audio{
-        width: 200px;
-        height: 50px;
-        padding: 5px;
+    audio{
+        width: 220px;
+        height: 35px;
+        margin: 5px;
     }
-    .songs-video video{
-        width: 200px;
-        height: 100px;
-        padding: 5px;
-    }
-    .videos{
-        position: relative;
-        top: 70px;
-    
-    }
-    .audios{
-        position: relative;
-        top: 40px;
+    video{
+        width: 220px;
+        height: auto;
+        margin: 5px;
     }
     .foot{
         position: relative;
-        top: 230px;
+        top: 200px;
         background: linear-gradient(rgb(150, 150, 150), rgb(30, 30, 30));
         height: 60px;
         margin: 0;
