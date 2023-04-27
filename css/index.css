@@ -86,12 +86,9 @@ body{
     scroll-behavior: smooth;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* ::-webkit-scrollbar{
-    /* background: transparent; */
-    /* height: 7px; */
-    /* background-color: #fff; */
-    /* background-color: rgb(200, 200, 200); */
-/* } */ 
+::-webkit-scrollbar{
+    background: transparent;
+}  
 .Ed{
      color: #fff;
     text-align: center;
