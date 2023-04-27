@@ -129,7 +129,7 @@ video{
 }
 .foot{
     position: relative;
-    top: 350px;
+    top: 600px;
     background: linear-gradient(rgb(150, 150, 150), rgb(50, 50, 50));
     bottom: 0;
     z-index: 1000;
